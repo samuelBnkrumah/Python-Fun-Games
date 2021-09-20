@@ -238,33 +238,14 @@ class EncryptedSubMessage(SubMessage):
 if __name__ == '__main__':
 
     # Example test case
-    #message = SubMessage("penis")
-    #permutation = "eaiuo"
-    #enc_dict = message.build_transpose_dict(permutation)
-    #print("Original message:", message.get_message_text(), "Permutation:", permutation)
-    #print("Expected encryption:", "panis")
-    #print("Actual encryption:", message.apply_transpose(enc_dict))
-    #enc_message = EncryptedSubMessage(message.apply_transpose(enc_dict))
-    #print("Decrypted message:", enc_message.decrypt_message())
+    message = SubMessage("fruit")
+    permutation = "eaiuo"
+    enc_dict = message.build_transpose_dict(permutation)
+    print("Original message:", message.get_message_text(), "Permutation:", permutation)
+    print("Expected encryption: froit")
+    print("Actual encryption:", message.apply_transpose(enc_dict))
+    enc_message = EncryptedSubMessage(message.apply_transpose(enc_dict))
+    print("Decrypted message:", enc_message.decrypt_message())
      
     #TODO: WRITE YOUR TEST CASES HERE
-    new_message = SubMessage('pussy')
-    permutation = 'aeiou'
-    enc_dict = new_message.build_transpose_dict(permutation)
-    print("Original message:", new_message.get_message_text(), "Permutation:", permutation)
-    print("Expected encryption:", "possy")
-    print("Actual encryption:", new_message.apply_transpose(enc_dict))
-    enc_message = EncryptedSubMessage(new_message.apply_transpose(enc_dict))
-    print("Decrypted message:", enc_message.decrypt_message())
-
-    print()
-
-    new_message_1 = SubMessage('juice')
-    enc_dict_1 = new_message_1.build_transpose_dict(permutation)
-    print("Original message:", new_message_1.get_message_text(), "Permutation:", permutation)
-    print("Expected encryption:", "joica")
-    print("Actual encryption:", new_message_1.apply_transpose(enc_dict_1))
-    enc_message_1 = EncryptedSubMessage(new_message_1.apply_transpose(enc_dict_1))
-    print("Decrypted message:", enc_message_1.decrypt_message())
-
-    
+   

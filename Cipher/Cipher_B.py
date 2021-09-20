@@ -291,45 +291,19 @@ class CiphertextMessage(Message):
 if __name__ == '__main__':
 
     #Example test case (PlaintextMessage)
-    #plaintext = PlaintextMessage('love', 2)
-    #print('Expected Output: nqxg')
-    #print('Actual Output:', plaintext.get_message_text_encrypted())
-    #plaintext.change_shift(4)
-    #print('New_Expected Output: .....')
-    #print('Actual Outpur:', plaintext.get_message_text_encrypted())
+    plaintext = PlaintextMessage('love', 2)
+    print('Expected Output: nqxg')
+    print('Actual Output:', plaintext.get_message_text_encrypted())
 
 
     #Example test case (CiphertextMessage)
-    #ciphertext = CiphertextMessage('nqxg')
-    #print('Expected Output:', (24, 'love'))
-    #print('Actual Output:', ciphertext.decrypt_message())
+    ciphertext = CiphertextMessage('nqxg')
+    print('Expected Output:', (24, 'love'))
+    print('Actual Output:', ciphertext.decrypt_message())
 
-    #TODO: WRITE YOUR TEST CASES HERE
-    #enc_text = PlaintextMessage('doggy', 3)
-    #print(enc_text.get_message_text_encrypted())
-    #print ('Expected Output: grjjb')
-    #print ('Actual Output:', enc_text.get_message_text_encrypted())
+   
 
-    #print()
-
-    #dec_text = CiphertextMessage ('grjjb')
-    #print ('Expected Output: (23, doggy)')
-    #print ('Actual Output:', dec_text.decrypt_message())
-
-    #print()
-
-    #enc_text_1 = PlaintextMessage('referee', 4)
-    #print(enc_text_1.get_message_text_encrypted())
-    #print ('Expected Output: vijivii')
-    #print ('Actual Output:', enc_text_1.get_message_text_encrypted())
-
-    #print()
-
-    #dec_text_1 = CiphertextMessage ('vijivii')
-    #print ('Expected Output: (22, referee)')
-    #print ('Actual Output:', dec_text_1.decrypt_message())
-    
-
+   
     #TODO: best shift value and unencrypted story
    
     
