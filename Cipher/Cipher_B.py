@@ -301,10 +301,7 @@ if __name__ == '__main__':
     print('Expected Output:', (24, 'love'))
     print('Actual Output:', ciphertext.decrypt_message())
 
-   
-
-   
-    #TODO: best shift value and unencrypted story
+  
    
     
 
