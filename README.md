@@ -9,10 +9,5 @@ This game is a lot like Scrabble or Words With Friends. Letters are dealt to pla
 
 ## Cipher
 Ever want to relive the glory days of your youth and pass secret messages to your friends? Well, here is your chance!
-But first, here is some vocabulary: 
-* Plaintext - the original message 
-* Ciphertext - the encrypted message. Note: a ciphertext still contains all of the original message information, even if it looks like gibberish.
-
-* Encryption - To encrypt a message, open **Cipher_B.py** and scroll to the bottom. Input your message as a **plaintext** object. The default message is **love**, and default encryption number is **3**
-* Decryption - To decrypt your message, input encrypted message as a **ciphertext** object. The default encrypted message is **nqxg**. The game displays the decrypted message and decryption number. 
-* **Cipher_C.py** allows you to encrypt a message by changing only the vowel letters in the message. Scroll to the bottom and input your message as a **message** object. The default message is **fruit**.
+* Simply open **Cipher_B.py** to encrypt and decrypt your message.
+* **Cipher_C.py** allows you to encrypt a message by changing only the vowel letters in the message.
