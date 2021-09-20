@@ -66,7 +66,7 @@ class Message(object):
             self.valid_words (list, determined using helper function load_words)
         '''
         self.message_text = text.lower()
-        #self.valid_words = load_words(WORDLIST_FILENAME)
+        self.valid_words = load_words(WORDLIST_FILENAME)
         pass #delete this line and replace with your code here
 
     def get_message_text(self):
@@ -301,10 +301,7 @@ if __name__ == '__main__':
     print('Expected Output:', (24, 'love'))
     print('Actual Output:', ciphertext.decrypt_message())
 
-   
-
-   
-    #TODO: best shift value and unencrypted story
+  
    
     
 
