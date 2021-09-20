@@ -11,14 +11,14 @@ def load_words(file_name):
     Depending on the size of the word list, this function may
     take a while to finish.
     '''
-    print("Loading word list from file...")
+    #print("Loading word list from file...")
     # inFile: file
     inFile = open(file_name, 'r')
     # wordlist: list of strings
     wordlist = []
     for line in inFile:
         wordlist.extend([word.lower() for word in line.split(' ')])
-    print("  ", len(wordlist), "words loaded.")
+    #print("  ", len(wordlist), "words loaded.")
     return wordlist
 
 def is_word(word_list, word):
@@ -291,17 +291,22 @@ class CiphertextMessage(Message):
 if __name__ == '__main__':
 
     #Example test case (PlaintextMessage)
-    plaintext = PlaintextMessage('love', 3)
-    print('Expected Output: nqxg')
-    print('Actual Output:', plaintext.get_message_text_encrypted())
-
+    users_word = input ('Please enter your message: ')
+    plaintext = PlaintextMessage(users_word, 4)
+    #print('Expected Output: nqxg')
+    print('Encrypted Message:', plaintext.get_message_text_encrypted())
+    print ()
 
     #Example test case (CiphertextMessage)
-    ciphertext = CiphertextMessage('nqxg')
-    print('Expected Output:', (24, 'love'))
-    print('Actual Output:', ciphertext.decrypt_message())
+    users_enc_word = input ('Please enter encrypted message for decryption: ')
+    ciphertext = CiphertextMessage(users_enc_word)
+    #print('Expected Output:', (24, 'love'))
+    print('Decrypted Message:', ciphertext.decrypt_message())
 
-  
+   
+
+   
+    #TODO: best shift value and unencrypted story
    
     
 
