@@ -306,7 +306,6 @@ if __name__ == '__main__':
    
 
    
-    #TODO: best shift value and unencrypted story
    
     
 
