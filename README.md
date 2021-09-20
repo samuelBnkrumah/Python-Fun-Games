@@ -5,13 +5,14 @@ This repository contains three interesting games that were developed as assignme
 Hangman is a paper and pencil guessing game for two or more players. One player thinks of a word, phrase or sentence and the other(s) tries to guess it by suggesting letters within a certain number of guesses.
 
 ## Word Game
-This game is a lot like Scrabble or Words With Friends. Letters are dealt to players, who then construct one or more words using their letters. Each valid word earns the user points, based on the length of the word and the letters in that word.
+This game is a lot like Scrabble or Words With Friends. Letters are dealt to players, who then construct one or more words using their letters. Each valid word earns the user points, based on the length of the word and the letters in that word. Simply open Word_Game.py and play! 
 
 ## Cipher
 Ever want to relive the glory days of your youth and pass secret messages to your friends? Well, here is your chance!
 But first, here is some vocabulary: 
-* Encryption - the process of obscuring or encoding messages to make them unreadable 
-* Decryption - making encrypted messages readable again by decoding them 
+* Encryption - To encrypt a message, open Cipher_B.py and scroll to the bottom. Input your message as a **plaintext** object. The default message is **love** 
+* Decryption - To decrypt your message, input encrypted message as a **ciphertext** object. The default encrypted message is **nqxg**
 * Cipher - algorithm for performing encryption and decryption 
 * Plaintext - the original message 
 * Ciphertext - the encrypted message. Note: a ciphertext still contains all of the original message information, even if it looks like gibberish.
+* Cipher_C.py allows you to encrypt a message by changing only the vowel letters in the message. Scroll to the bottom and input your message as a **message** object. The default message is **fruit**.
