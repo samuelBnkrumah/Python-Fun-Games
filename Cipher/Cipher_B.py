@@ -66,7 +66,7 @@ class Message(object):
             self.valid_words (list, determined using helper function load_words)
         '''
         self.message_text = text.lower()
-        #self.valid_words = load_words(WORDLIST_FILENAME)
+        self.valid_words = load_words(WORDLIST_FILENAME)
         pass #delete this line and replace with your code here
 
     def get_message_text(self):
@@ -291,7 +291,7 @@ class CiphertextMessage(Message):
 if __name__ == '__main__':
 
     #Example test case (PlaintextMessage)
-    plaintext = PlaintextMessage('love', 2)
+    plaintext = PlaintextMessage('love', 3)
     print('Expected Output: nqxg')
     print('Actual Output:', plaintext.get_message_text_encrypted())
 
