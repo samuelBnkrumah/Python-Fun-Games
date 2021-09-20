@@ -10,8 +10,8 @@ This game is a lot like Scrabble or Words With Friends. Letters are dealt to pla
 ## Cipher
 Ever want to relive the glory days of your youth and pass secret messages to your friends? Well, here is your chance!
 But first, here is some vocabulary: 
-*Encryption - the process of obscuring or encoding messages to make them unreadable 
-*Decryption - making encrypted messages readable again by decoding them 
-*Cipher - algorithm for performing encryption and decryption 
-*Plaintext - the original message 
-*Ciphertext - the encrypted message. Note: a ciphertext still contains all of the original message information, even if it looks like gibberish.
+* Encryption - the process of obscuring or encoding messages to make them unreadable 
+* Decryption - making encrypted messages readable again by decoding them 
+* Cipher - algorithm for performing encryption and decryption 
+* Plaintext - the original message 
+* Ciphertext - the encrypted message. Note: a ciphertext still contains all of the original message information, even if it looks like gibberish.
