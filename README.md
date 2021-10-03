@@ -1,5 +1,5 @@
 # Python-Fun-Games
-This repository contains three interesting games that were developed as assignment solutions to MIT's OCW Introduction to Computer Science and Programming in Python. Feel free to modify the games to suit your interests. These games were developed with **Python 3.9** Have fun!
+This repository contains three interesting games that I developed as assignment solutions to MIT's OCW Introduction to Computer Science and Programming in Python. Feel free to modify the games to suit your interests. These games were developed with **Python 3.9** Have fun!
 
 ## Hangman
 Hangman is a paper and pencil guessing game for two or more players. One player thinks of a word, phrase or sentence and the other(s) tries to guess it by suggesting letters within a certain number of guesses. Simply open **hangman.py** and play!
